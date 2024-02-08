@@ -18,7 +18,12 @@ def scrap(target_id):
 
     # Get the source code of the web page
     page_source = driver.page_source
-    print(page_source)
+
+    # TODO catch the link to the pdf
+    m = re.match('(class="boutonImportant orange")', page_source)
+    if m:
+        print(m.group(0))
+    # print(page_source)
 
 
 if __name__ == "__main__":
