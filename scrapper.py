@@ -2,6 +2,8 @@ from bs4 import BeautifulSoup
 from selenium import webdriver
 import urllib.request
 import os
+from rich.progress import track
+from selenium.webdriver.firefox.options import Options as FirefoxOptions
 
 
 def scrap(target_id: int, output_folder: str) -> bool:
@@ -21,7 +23,9 @@ def scrap(target_id: int, output_folder: str) -> bool:
     file_found = False
 
     # Create a new instance of the Firefox driver
-    driver = webdriver.Firefox(executable_path=driver_path)
+    options = webdriver.FirefoxOptions()
+    options.headless = True
+    driver = webdriver.Firefox(executable_path=driver_path, options=options)
 
     # Navigate to the target web page
     driver.get(target_url)
@@ -30,7 +34,7 @@ def scrap(target_id: int, output_folder: str) -> bool:
     page_source = driver.page_source
 
     # catch the link to the pdf
-    soup = BeautifulSoup(page_source)
+    soup = BeautifulSoup(page_source, features="lxml")
     root_url = "https://www.inrs.fr"
     url_list = []
     for a in soup.find_all("a", {"class": "boutonImportant orange"}, href=True):
@@ -96,7 +100,7 @@ def run(target, output_folder):
 
     # run scrap on targets
     missing_doc = []
-    for t in target_list:
+    for t in track(target_list):
 
         # Hunt & donwload pdf
         success = scrap(t, output_folder)
@@ -119,7 +123,7 @@ def run(target, output_folder):
 if __name__ == "__main__":
 
     # parameters
-    t = "test.txt"
+    t = "/tmp/inscrap.txt"
 
     # test function
     run(t, "/tmp/inscrap")
