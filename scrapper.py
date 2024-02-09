@@ -1,9 +1,35 @@
+import getopt
+import sys
+from termcolor import cprint
+from pyfiglet import figlet_format
 from bs4 import BeautifulSoup
 from selenium import webdriver
 import urllib.request
 import os
 from rich.progress import track
 from selenium.webdriver.firefox.options import Options as FirefoxOptions
+
+# TO EDIT ACCORDING TO LOCAL ENVIRONEMENT
+DRIVER_PATH = "/home/bran/drivers/geckodriver"
+
+
+def display_help():
+    """ """
+    help = """INRSRAP - INRS - Scrap download the documentation of a specified chemical component from
+    the INRS website. It takes two mandatory arguments :
+
+        - input : could be a single input (e.g : 87) or a file containing one input per line
+        - output : path to the output folder, create it of not already exists
+
+    Usage :
+        
+        - python inrscrap.py -i 87 -o /my/output/folder
+        - python insrcrap.py -i /my/ids/file -o /my/output/folder
+
+    N.B : don't forget to edit the driver path in this file !
+    """
+
+    print(help)
 
 
 def scrap(target_id: int, output_folder: str) -> bool:
@@ -19,13 +45,12 @@ def scrap(target_id: int, output_folder: str) -> bool:
 
     # parameters
     target_url = f"https://www.inrs.fr/publications/bdd/fichetox/fiche.html?refINRS=FICHETOX_{target_id}"
-    driver_path = "/home/bran/drivers/geckodriver"
     file_found = False
 
     # Create a new instance of the Firefox driver
     options = webdriver.FirefoxOptions()
     options.headless = True
-    driver = webdriver.Firefox(executable_path=driver_path, options=options)
+    driver = webdriver.Firefox(executable_path=DRIVER_PATH, options=options)
 
     # Navigate to the target web page
     driver.get(target_url)
@@ -69,6 +94,13 @@ def run(target, output_folder):
     # check if output folder exist
     if not os.path.isdir(output_folder):
         os.mkdir(output_folder)
+
+    # check if driver exist
+    if not os.path.isfile(DRIVER_PATH):
+        print(
+            f"[!] Can't locate driver file at {DRIVER_PATH}, please edit it in the main file"
+        )
+        return 1
 
     # init log file
     log_data = open(f"{output_folder}/inscrap.log", "w")
@@ -123,7 +155,39 @@ def run(target, output_folder):
 if __name__ == "__main__":
 
     # parameters
-    t = "/tmp/inscrap.txt"
+    target = ""
+    output_folder = ""
 
-    # test function
-    run(t, "/tmp/inscrap")
+    # catch arguments
+    argv = sys.argv[1:]
+    try:
+        opts, args = getopt.getopt(argv, "hi:o:", ["input=", "output="])
+    except getopt.GetoptError:
+        display_help()
+        sys.exit(2)
+    for opt, arg in opts:
+        if opt in ("-h", "--help"):
+            display_help()
+            sys.exit()
+        elif opt in ("-i", "--input"):
+            target = arg
+        elif opt in ("-o", "--output"):
+            output_folder = arg
+
+    # display cool banner
+    title = "> INSCRAP <"
+    text = "=" * (len(title) - 2) + "\n" + title + "\n" + "=" * (len(title) - 2) + "\n"
+    cprint(figlet_format(text, font="standard"), "green")
+
+    # check that all arguments are present
+    if target == "":
+        print("[!] No input specified")
+        print("[!] Use -h or --help options to get more informations")
+        sys.exit()
+    if output_folder == "":
+        print("[!] No output folder specified")
+        print("[!] Use -h or --help options to get more informations")
+        sys.exit()
+
+    # run selection
+    run(target, output_folder)
