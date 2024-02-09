@@ -29,3 +29,363 @@ Read port: 40101
 1707416911956	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 console.error: ({})
 1707416915212	Marionette	INFO	Stopped listening on port 40101
+1707463671129	geckodriver	INFO	Listening on 127.0.0.1:33905
+1707463671134	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileZkGayL"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1707463672117	Marionette	INFO	Marionette enabled
+1707463672120	Marionette	INFO	Listening on port 34633
+Read port: 34633
+1707463672216	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+JavaScript error: https://www.inrs.fr/publications/bdd/fichetox/fiche.html?refINRS=FICHETOX_328 line 509 > injectedScript, line 1: ReferenceError: OnetrustActiveGroups is not defined
+1707463680315	Marionette	INFO	Stopped listening on port 34633
+1707463919708	geckodriver	INFO	Listening on 127.0.0.1:51909
+1707463919713	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofile97pnHd"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1707463920638	Marionette	INFO	Marionette enabled
+1707463920641	Marionette	INFO	Listening on port 39453
+Read port: 39453
+1707463921028	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+JavaScript error: https://www.inrs.fr/publications/bdd/fichetox/fiche.html?refINRS=FICHETOX_328 line 509 > injectedScript, line 1: ReferenceError: OnetrustActiveGroups is not defined
+1707463927061	Marionette	INFO	Stopped listening on port 39453
+1707463952978	geckodriver	INFO	Listening on 127.0.0.1:34325
+1707463952982	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileIhD6UM"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1707463953852	Marionette	INFO	Marionette enabled
+1707463953856	Marionette	INFO	Listening on port 36249
+Read port: 36249
+1707463953929	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+JavaScript error: https://www.inrs.fr/publications/bdd/fichetox/fiche.html?refINRS=FICHETOX_328 line 509 > injectedScript, line 1: ReferenceError: OnetrustActiveGroups is not defined
+1707463961513	Marionette	INFO	Stopped listening on port 36249
+1707464146580	geckodriver	INFO	Listening on 127.0.0.1:38673
+1707464146582	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofile3AiqWm"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1707464147506	Marionette	INFO	Marionette enabled
+1707464147511	Marionette	INFO	Listening on port 38815
+Read port: 38815
+1707464147833	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+1707464153352	Marionette	INFO	Stopped listening on port 38815
+1707464161140	geckodriver	INFO	Listening on 127.0.0.1:35665
+1707464161144	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileKyZDzJ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1707464162034	Marionette	INFO	Marionette enabled
+1707464162038	Marionette	INFO	Listening on port 38133
+Read port: 38133
+1707464162108	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+1707464171327	Marionette	INFO	Stopped listening on port 38133
+1707464412972	geckodriver	INFO	Listening on 127.0.0.1:54041
+1707464412977	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileG0jW53"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1707464413965	Marionette	INFO	Marionette enabled
+1707464413969	Marionette	INFO	Listening on port 36833
+Read port: 36833
+1707464414047	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+1707464419787	Marionette	INFO	Stopped listening on port 36833
+1707464471717	geckodriver	INFO	Listening on 127.0.0.1:34321
+1707464471721	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileGjZZyy"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1707464472654	Marionette	INFO	Marionette enabled
+1707464472657	Marionette	INFO	Listening on port 45153
+Read port: 45153
+1707464473020	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+JavaScript error: https://www.inrs.fr/publications/bdd/fichetox/fiche.html?refINRS=FICHETOX_328 line 509 > injectedScript, line 1: ReferenceError: OnetrustActiveGroups is not defined
+1707464480951	Marionette	INFO	Stopped listening on port 45153
+1707464536965	geckodriver	INFO	Listening on 127.0.0.1:34931
+1707464536972	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileH1DGfO"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1707464537822	Marionette	INFO	Marionette enabled
+1707464537825	Marionette	INFO	Listening on port 36729
+Read port: 36729
+1707464537958	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+JavaScript error: https://www.inrs.fr/publications/bdd/fichetox/fiche.html?refINRS=FICHETOX_328 line 509 > injectedScript, line 1: ReferenceError: OnetrustActiveGroups is not defined
+1707464543048	Marionette	INFO	Stopped listening on port 36729
+1707464770768	geckodriver	INFO	Listening on 127.0.0.1:40965
+1707464770773	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofile3ouySo"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1707464771694	Marionette	INFO	Marionette enabled
+1707464771697	Marionette	INFO	Listening on port 34225
+Read port: 34225
+1707464772054	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+1707464779736	Marionette	INFO	Stopped listening on port 34225
+1707464827933	geckodriver	INFO	Listening on 127.0.0.1:56963
+1707464827942	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileeiFqSz"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1707464828822	Marionette	INFO	Marionette enabled
+1707464828825	Marionette	INFO	Listening on port 44687
+Read port: 44687
+1707464828895	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+JavaScript error: https://www.inrs.fr/publications/bdd/fichetox/fiche.html?refINRS=FICHETOX_328 line 509 > injectedScript, line 1: ReferenceError: OnetrustActiveGroups is not defined
+1707464836420	Marionette	INFO	Stopped listening on port 44687
+1707465284105	geckodriver	INFO	Listening on 127.0.0.1:44517
+1707465284114	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileYKwGR5"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1707465285034	Marionette	INFO	Marionette enabled
+1707465285038	Marionette	INFO	Listening on port 41161
+Read port: 41161
+1707465285383	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+1707465292244	Marionette	INFO	Stopped listening on port 41161
+1707466448324	geckodriver	INFO	Listening on 127.0.0.1:46559
+1707466448329	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileri6j8B"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1707466449273	Marionette	INFO	Marionette enabled
+1707466449277	Marionette	INFO	Listening on port 38963
+Read port: 38963
+1707466449420	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+1707466454967	Marionette	INFO	Stopped listening on port 38963
+1707466497831	geckodriver	INFO	Listening on 127.0.0.1:35691
+1707466497836	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofile1llXJ7"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1707466498705	Marionette	INFO	Marionette enabled
+1707466498708	Marionette	INFO	Listening on port 33333
+Read port: 33333
+1707466498798	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+JavaScript error: https://www.inrs.fr/publications/bdd/fichetox/fiche.html?refINRS=FICHETOX_328 line 509 > injectedScript, line 1: ReferenceError: OnetrustActiveGroups is not defined
+1707466504708	Marionette	INFO	Stopped listening on port 33333
+1707466570004	geckodriver	INFO	Listening on 127.0.0.1:43145
+1707466570009	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofilevKtASO"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1707466571011	Marionette	INFO	Marionette enabled
+1707466571018	Marionette	INFO	Listening on port 36921
+Read port: 36921
+1707466571394	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+1707466581000	Marionette	INFO	Stopped listening on port 36921
+1707467187618	geckodriver	INFO	Listening on 127.0.0.1:59149
+1707467187624	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofile6BL0aR"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1707467188608	Marionette	INFO	Marionette enabled
+1707467188611	Marionette	INFO	Listening on port 34313
+Read port: 34313
+1707467188682	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+1707467196374	Marionette	INFO	Stopped listening on port 34313
+1707467453456	geckodriver	INFO	Listening on 127.0.0.1:40979
+1707467453465	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofilexu1kC7"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1707467454384	Marionette	INFO	Marionette enabled
+1707467454392	Marionette	INFO	Listening on port 33525
+Read port: 33525
+1707467454751	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+1707467460799	Marionette	INFO	Stopped listening on port 33525
+1707467474788	geckodriver	INFO	Listening on 127.0.0.1:34895
+1707467474793	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofile8dwQ74"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1707467475828	Marionette	INFO	Marionette enabled
+1707467475834	Marionette	INFO	Listening on port 46581
+Read port: 46581
+1707467476067	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+JavaScript error: https://www.inrs.fr/publications/bdd/fichetox/fiche.html?refINRS=FICHETOX_328 line 509 > injectedScript, line 1: ReferenceError: OnetrustActiveGroups is not defined
+1707467480817	Marionette	INFO	Stopped listening on port 46581
+1707467502929	geckodriver	INFO	Listening on 127.0.0.1:43559
+1707467502933	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileUdfJeG"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1707467503860	Marionette	INFO	Marionette enabled
+1707467503864	Marionette	INFO	Listening on port 44707
+Read port: 44707
+1707467504224	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+1707467508541	Marionette	INFO	Stopped listening on port 44707
+1707467526011	geckodriver	INFO	Listening on 127.0.0.1:40721
+1707467526016	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofilewGUCcN"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1707467527035	Marionette	INFO	Marionette enabled
+1707467527038	Marionette	INFO	Listening on port 46695
+Read port: 46695
+1707467527385	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+1707467533983	Marionette	INFO	Stopped listening on port 46695
+1707467612958	geckodriver	INFO	Listening on 127.0.0.1:55595
+1707467612963	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileXGTzGG"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1707467613865	Marionette	INFO	Marionette enabled
+1707467613869	Marionette	INFO	Listening on port 40683
+Read port: 40683
+1707467614220	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+1707467619511	Marionette	INFO	Stopped listening on port 40683
+1707467647884	geckodriver	INFO	Listening on 127.0.0.1:60973
+1707467647889	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofilemv5gt3"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1707467648849	Marionette	INFO	Marionette enabled
+1707467648853	Marionette	INFO	Listening on port 36689
+Read port: 36689
+1707467648939	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+1707467657631	Marionette	INFO	Stopped listening on port 36689
+1707467757543	geckodriver	INFO	Listening on 127.0.0.1:59727
+1707467757546	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofilelRMoWz"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1707467758460	Marionette	INFO	Marionette enabled
+1707467758463	Marionette	INFO	Listening on port 39187
+Read port: 39187
+1707467758818	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+JavaScript error: https://www.inrs.fr/publications/bdd/fichetox/fiche.html?refINRS=FICHETOX_328 line 509 > injectedScript, line 1: ReferenceError: OnetrustActiveGroups is not defined
+1707467764836	Marionette	INFO	Stopped listening on port 39187
+1707470848557	geckodriver	INFO	Listening on 127.0.0.1:40083
+1707470848566	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofilesMn2ln"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1707470849456	Marionette	INFO	Marionette enabled
+1707470849460	Marionette	INFO	Listening on port 39045
+Read port: 39045
+1707470849530	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+JavaScript error: https://www.inrs.fr/publications/bdd/fichetox/fiche.html?refINRS=FICHETOX_328 line 509 > injectedScript, line 1: ReferenceError: OnetrustActiveGroups is not defined
+1707470855488	Marionette	INFO	Stopped listening on port 39045
+1707470886804	geckodriver	INFO	Listening on 127.0.0.1:52019
+1707470886809	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileJaoZ1P"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1707470887701	Marionette	INFO	Marionette enabled
+1707470887706	Marionette	INFO	Listening on port 36337
+Read port: 36337
+1707470887778	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+1707470894538	Marionette	INFO	Stopped listening on port 36337
+1707470935181	geckodriver	INFO	Listening on 127.0.0.1:34423
+1707470935185	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofilexppimN"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1707470936125	Marionette	INFO	Marionette enabled
+1707470936128	Marionette	INFO	Listening on port 37741
+Read port: 37741
+1707470936223	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+JavaScript error: https://www.inrs.fr/publications/bdd/fichetox/fiche.html?refINRS=FICHETOX_328 line 509 > injectedScript, line 1: ReferenceError: OnetrustActiveGroups is not defined
+1707470950003	Marionette	INFO	Stopped listening on port 37741
+1707470978692	geckodriver	INFO	Listening on 127.0.0.1:35343
+1707470978697	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileSyqciR"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1707470979624	Marionette	INFO	Marionette enabled
+1707470979628	Marionette	INFO	Listening on port 44095
+Read port: 44095
+1707470979849	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+JavaScript error: https://www.inrs.fr/publications/bdd/fichetox/fiche.html?refINRS=FICHETOX_328 line 509 > injectedScript, line 1: ReferenceError: OnetrustActiveGroups is not defined
+1707470982601	geckodriver	INFO	Listening on 127.0.0.1:37871
+1707470983608	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileJvxmeh"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1707470984538	Marionette	INFO	Marionette enabled
+1707470984541	Marionette	INFO	Listening on port 46267
+Read port: 46267
+1707470984882	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+JavaScript error: https://www.inrs.fr/publications/bdd/fichetox/fiche.html?refINRS=FICHETOX_47 line 509 > injectedScript, line 1: ReferenceError: OnetrustActiveGroups is not defined
+1707470987785	geckodriver	INFO	Listening on 127.0.0.1:60143
+1707470988794	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofile6wT9Pd"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1707470989822	Marionette	INFO	Marionette enabled
+1707470989825	Marionette	INFO	Listening on port 37915
+Read port: 37915
+1707470990125	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+1707470992985	geckodriver	INFO	Listening on 127.0.0.1:51207
+1707470993993	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofilerXBDR7"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1707470994946	Marionette	INFO	Marionette enabled
+1707470994949	Marionette	INFO	Listening on port 41919
+Read port: 41919
+1707470995020	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+JavaScript error: https://www.inrs.fr/publications/bdd/fichetox/fiche.html?refINRS=FICHETOX_23 line 509 > injectedScript, line 1: ReferenceError: OnetrustActiveGroups is not defined
+1707471006731	Marionette	INFO	Stopped listening on port 41919
+1707471007431	Marionette	INFO	Stopped listening on port 37915
+1707471008775	Marionette	INFO	Stopped listening on port 46267
+1707471009472	Marionette	INFO	Stopped listening on port 44095
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+console.error: (new Error("Polling for changes failed: NetworkError: Network request failed.", "resource://services-settings/remote-settings.sys.mjs", 324))
+1707471009767	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, channelStatus: 2147500036, errorCode: 2, reason: error
+1707471108955	geckodriver	INFO	Listening on 127.0.0.1:50065
+1707471108958	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofile7YFW2n"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1707471109913	Marionette	INFO	Marionette enabled
+1707471109916	Marionette	INFO	Listening on port 36167
+Read port: 36167
+1707471110008	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+1707471112743	geckodriver	INFO	Listening on 127.0.0.1:50327
+1707471113751	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileGFuwhp"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1707471114669	Marionette	INFO	Marionette enabled
+1707471114672	Marionette	INFO	Listening on port 37611
+Read port: 37611
+1707471115038	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+JavaScript error: https://www.inrs.fr/publications/bdd/fichetox/fiche.html?refINRS=FICHETOX_47 line 509 > injectedScript, line 1: ReferenceError: OnetrustActiveGroups is not defined
+1707471117602	geckodriver	INFO	Listening on 127.0.0.1:35551
+1707471118610	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileVUroB3"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1707471119583	Marionette	INFO	Marionette enabled
+1707471119586	Marionette	INFO	Listening on port 39509
+Read port: 39509
+1707471119656	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+1707471122567	geckodriver	INFO	Listening on 127.0.0.1:54639
+1707471123575	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileAsIYAd"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1707471124488	Marionette	INFO	Marionette enabled
+1707471124491	Marionette	INFO	Listening on port 43987
+Read port: 43987
+1707471124857	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+JavaScript error: https://www.inrs.fr/publications/bdd/fichetox/fiche.html?refINRS=FICHETOX_23 line 509 > injectedScript, line 1: ReferenceError: OnetrustActiveGroups is not defined
+1707471127376	geckodriver	INFO	Listening on 127.0.0.1:46737
+1707471128385	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileJi1VDr"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1707471129326	Marionette	INFO	Marionette enabled
+1707471129330	Marionette	INFO	Listening on port 32857
+Read port: 32857
+1707471129550	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+JavaScript error: https://www.inrs.fr/publications/bdd/fichetox/fiche.html?refINRS=FICHETOX_17 line 509 > injectedScript, line 1: ReferenceError: OnetrustActiveGroups is not defined
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
