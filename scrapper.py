@@ -3,14 +3,10 @@ import sys
 from termcolor import cprint
 from pyfiglet import figlet_format
 from bs4 import BeautifulSoup
-from selenium import webdriver
 import urllib.request
 import os
 from rich.progress import track
-from selenium.webdriver.firefox.options import Options as FirefoxOptions
-
-# TO EDIT ACCORDING TO LOCAL ENVIRONEMENT
-DRIVER_PATH = "/home/bran/drivers/geckodriver"
+import requests
 
 
 def display_help():
@@ -26,7 +22,6 @@ def display_help():
         - python inrscrap.py -i 87 -o /my/output/folder
         - python insrcrap.py -i /my/ids/file -o /my/output/folder
 
-    N.B : don't forget to edit the driver path in this file !
     """
 
     print(help)
@@ -47,16 +42,8 @@ def scrap(target_id: int, output_folder: str) -> bool:
     target_url = f"https://www.inrs.fr/publications/bdd/fichetox/fiche.html?refINRS=FICHETOX_{target_id}"
     file_found = False
 
-    # Create a new instance of the Firefox driver
-    options = webdriver.FirefoxOptions()
-    options.headless = True
-    driver = webdriver.Firefox(executable_path=DRIVER_PATH, options=options)
-
-    # Navigate to the target web page
-    driver.get(target_url)
-
-    # Get the source code of the web page
-    page_source = driver.page_source
+    # get source code
+    page_source = requests.get(target_url).text
 
     # catch the link to the pdf
     soup = BeautifulSoup(page_source, features="lxml")
@@ -94,13 +81,6 @@ def run(target, output_folder):
     # check if output folder exist
     if not os.path.isdir(output_folder):
         os.mkdir(output_folder)
-
-    # check if driver exist
-    if not os.path.isfile(DRIVER_PATH):
-        print(
-            f"[!] Can't locate driver file at {DRIVER_PATH}, please edit it in the main file"
-        )
-        return 1
 
     # init log file
     log_data = open(f"{output_folder}/inscrap.log", "w")

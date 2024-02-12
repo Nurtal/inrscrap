@@ -991,3 +991,15 @@ console.error: "update.locale" " file doesn't exist in either the application or
 console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
 console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
 console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
+1707724889528	geckodriver	INFO	Listening on 127.0.0.1:44043
+1707724890533	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr/bin/firefox" "--marionette" "-headless" "-no-remote" "-profile" "/tmp/rust_mozprofileMWEBoo"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1707724891389	Marionette	INFO	Marionette enabled
+1707724891393	Marionette	INFO	Listening on port 34979
+Read port: 34979
+1707724891571	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+console.error: "update.locale" " file doesn't exist in either the application or GRE directories"
